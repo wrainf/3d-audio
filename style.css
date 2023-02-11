@@ -1,0 +1,36 @@
+input {
+  display: none;
+}
+
+label{
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.2s background-color;
+}
+label:hover{
+  background-color: rgb(214, 214, 214);
+  cursor: pointer;
+}
+
+#header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#visualiser {
+  cursor: pointer;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#visualiser {
+  flex: 1;
+}
